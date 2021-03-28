@@ -5,7 +5,7 @@ const authConfig = {
 	"siteName": "RedZone", // Website name
 	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
 	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
-	"refresh_token": "1//03wGZKT_MGRhvCgYIARAAGAMSNwF-L9IrR9FQwo9s1Ns2zh6LEGRMWpPlBqAAWjvPsmxpYyWuvfPFs55rpKSZ9SLBTghO6F5pwLE", // Authorize token
+	"refresh_token": "", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
 	 * [id]: It can be the team disk id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -20,7 +20,7 @@ const authConfig = {
 	 * [Note] For the disk whose id is set to the subfolder id, the search function will not be supported (it does not affect other disks).
 	 */
 	"roots": [{
-		"id": "0AOAe4UBFT37tUk9PVA",
+		"id": "",
 		"name": "Packs",
 		"user": "",
 		"pass": "",
