@@ -748,7 +748,7 @@ function copyToClipboard(str) {
 function file_video(path) {
 	var url = window.location.origin + path;
 	const content = `
-  <div class="container-fluid"><br>
+  <div><br>
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
   <video id="player" class="mdui-video-fluid mdui-center" preload controls><source src="${url}" type="video/mp4"></video>
   <p class="card-text text-center"><a href="#" class="btn btn-primary">Download</a></p><br>
