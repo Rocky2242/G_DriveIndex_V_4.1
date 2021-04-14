@@ -3,7 +3,7 @@ document.write('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pl
 // Redesigned by t.me/TheFirstSpeedster from https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index which was written by someone else, credits are given on Source Page.
 // Initialize the page
 function init() {
-	document.siteName = $('title').html();
+	document.siteName = $('title').html();vi
 	var html = `
 <header >
    <div id="nav">
@@ -748,7 +748,6 @@ function copyToClipboard(str) {
 function file_video(path) {
 	var url = window.location.origin + path;
 	const content = `
-  <div class="container"><br>
   <div class="card">
   <div class="card-body text-center">
   <div class="alert alert-danger" id="folderne" role="alert"></div><script>document.getElementById("folderne").innerHTML=decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')+1))).replace('/','').replace('?a=view','');</script>
@@ -756,7 +755,6 @@ function file_video(path) {
   </div>
   <p class="card-text text-center"><a href="#" class="btn btn-primary">Download</a></p><br>
   <p>Download Option is for VIP Users Only <a href="https://redzone.fun/contact.php?sub=VIP_Registration">Click here to become VIP</a></p><br>
-  </div>
   </div>
   `;
 	$('#content').html(content);
