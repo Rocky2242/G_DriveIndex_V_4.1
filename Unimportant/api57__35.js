@@ -3,7 +3,7 @@ document.write('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pl
 // Redesigned by t.me/TheFirstSpeedster from https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index which was written by someone else, credits are given on Source Page.
 // Initialize the page
 function init() {
-	document.siteName = $('title').html();vi
+	document.siteName = $('title').html();
 	var html = `
 <header >
    <div id="nav">
