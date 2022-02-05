@@ -334,7 +334,7 @@ function append_files_to_list(path, files) {
 		if (item['mimeType'] == 'application/vnd.google-apps.folder') {
 			html += `<div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
                         <a href="${p}" class="card">
-                             <img class="card-img-top" src="https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-down-arrow-icon-png-image_924833.jpg" style="height: 120px">
+                             <img class="card-img-top" src="https://findicons.com/files/icons/1029/vista_folder_colors/256/black_folder.png" style="height: 120px">
                                 <div class="card-body">
                                 <p class="card-text">${item.name}</p>
                                 </div>
